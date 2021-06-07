@@ -33,7 +33,7 @@ function showDate() {
     let date = new Date();
     let currentTime = date.toLocaleTimeString() + " " + date.toLocaleString('default', {
         month: 'long'
-    }) + " " + date.getDay();
+    }) + " " + date.getDate();
     return currentTime;
 }
 
