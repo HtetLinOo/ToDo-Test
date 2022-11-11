@@ -106,7 +106,9 @@ body {
 .add-icon {
     font-size: 80px;
 }
-
+.test{
+    text-align: center;
+}
 @media screen and (max-width: 500px) {
     .main {
         width: 80%;
